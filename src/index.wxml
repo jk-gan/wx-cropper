@@ -33,9 +33,9 @@
     </view>
   </view>
   <view class='cropper-config'>
-    <text class="cropper-cancle" bindtap="close">取消</text>
-    <text class="cropper-cancle" bindtap="getImage">选择图片</text>
-    <text class="cropper-save" bindtap="getImageInfo">完成</text>
+    <text class="cropper-cancle" bindtap="close">Cancel</text>
+    <!-- <text class="cropper-cancle" bindtap="getImage">Select Picture</text> -->
+    <text class="cropper-save" bindtap="getImageInfo">Done</text>
   </view>
   <canvas canvas-id="wxCropperCanvas"
           style="position:absolute; width:{{qualityWidth}}px;height:{{qualityWidth / innerAspectRadio }}px;top:-9999px;left:-9999px;"></canvas>
